@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>myPortfolio</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<!--link rel="stylesheet" href="bootstrap/css/border.css"-->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js">
+  		</script>
+  		<link rel="stylesheet" href="css/style.css"> 
+  		<link rel="stylesheet" href="css/font.css">
+  		<script type="text/javascript" src="js/bootstrap.min.js">
+
+  </script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-sm-6 logo-border-bottom">
+				<img src="images/logo.png" alt="logo" class="img-responsive title-logo">
+			</div>
+			<div class="col-sm-6 title-border-bottom text-uppercase text-right">
+				<h1 class="title-super">Maga Seala</h1>
+				<h2 class="title-description"> Front-End Developer</h2>
+			</div>
+		</div>
+
+		<section class="row">
+			<article class="col-md-12 text-center">
+				<figure>
+					<picture>
+						<source media="(max-width: 480px)" srcset="images/indexSmall.jpg">
+						<img src="images/index.png" alt="glasses and a loptop" class="img-responsive text-center main-banner">
+					</picture>
+				</figure>
+			</article>
+		</section>
+
+		<section class="row">
+			<article class="col-md-12 text-uppercase">
+				<h3 class="text-mute"> Feature Work</h3>
+			</article>
+		</section>
+
+		<section class="row text-center">
+			<article class="col-sm-4 feature-div-shadow" id="feature-food-1">
+				<figure>
+					<picture>
+						<source media="(max-width:480px)" srcset="images/coffeeSmall.jpg">
+						<source media="(min-width: 481px max-width: 767px)" srcset="images/coffee.jpg">
+						<source media="(min-width: 768px)" 
+						srcset="images/coffeeSmall.jpg">
+						<img src="images/coffee.jpg" alt="coffee beans" class="img-responsive" data-toggle="modal" data-target="#food1">
+					</picture>
+					<figcaption class="text-uppercase">Example 1</figcaption>
+				</figure>
+				<p><a href="#">http://ex1.com</a></p>
+			</article>
+			<div class="modal fade" id="food1" tabindex="-1" role="dialog" aria-labelledly="cat1ModalLabel" style="display: none;">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+							<h4 class="modal-title" id="cat1ModalLabel">Example 1</h4>
+						</div>
+
+						<div class="modal-body">
+Lorem ipsum dolor sit amet, eam et congue blandit persecuti, mei an omnis rationibus, ex mea vocent indoctum. Te dolore virtute mea. Omnium prompta constituam vim in. No mei nihil nominavi.
+
+Mei et errem bonorum. Qui no mundi forensibus, officiis delicatissimi usu id, posse interpretaris id eam. Cu saepe ubique duo, ne sea graeco assueverit. An admodum urbanitas duo, quo ea vidit errem sententiae. Nulla graecis ancillae vix an.
+
+Elit labitur senserit at eos, ad pro habemus cotidieque voluptatibus, ei saepe imperdiet mnesarchum sed. Vis id omnes urbanitas. Lorem malorum feugiat eos et. Tation vocibus te pri. 
+		              	</div>
+		              	<div class="modal-footer">
+		              		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		              	</div>
+					</div>
+				</div>
+			</div>
+
+
+			<article class="col-sm-4 feature-div-shadow" id="featured-food-2">
+				<figure>
+					<picture>
+						<source media="(max-width: 480px)" srcset="images/papersSmall.jpg">
+						<source media="(min-width:481px max-width: 767px)" srcset="images/papers.jpg">
+						<source media="(min-width: 768px)" 
+						srcset="images/papersSmall.jpg">
+						<img src="images/papers.jpg" alt="stack of papers" class="img-responsive" data-toggle="modal" data-target="#food2">
+					</picture>
+					<figcaption class="text-uppercase">Example 2</figcaption>
+				</figure>
+				<p><a href="#">http://ex2.com</a></p>
+			</article>
+
+			<div class="modal fade" id="food2" tabindex="-1" role="dialog" aria-labelledly="food2ModalLabel" style="display: none;">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+							<h4 class="modal-title" id="food2ModalLabel">Example 2</h4>
+						</div>
+
+						<div class="modal-body">
+Lorem ipsum dolor sit amet, eam et congue blandit persecuti, mei an omnis rationibus, ex mea vocent indoctum. Te dolore virtute mea. Omnium prompta constituam vim in. No mei nihil nominavi.
+
+Mei et errem bonorum. Qui no mundi forensibus, officiis delicatissimi usu id, posse interpretaris id eam. Cu saepe ubique duo, ne sea graeco assueverit. An admodum urbanitas duo, quo ea vidit errem sententiae. Nulla graecis ancillae vix an.
+
+Elit labitur senserit at eos, ad pro habemus cotidieque voluptatibus, ei saepe imperdiet mnesarchum sed. Vis id omnes urbanitas. Lorem malorum feugiat eos et. Tation vocibus te pri. 
+		              	</div>
+		              	<div class="modal-footer">
+		              		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		              	</div>
+					</div>
+				</div>
+			</div>
+
+
+			<article class="col-sm-4 feature-div-shadow" id="feature-food-3">
+				<figure>
+					<picture>
+						<source media="(max-width: 480px)" srcset="images/boomboxSmall.jpg">
+						<source media="(min-width:481px max-width: 767px)" srcset="images/boomboxMiddle.jpg">
+						<source media="(min-width: 768px)" 
+						srcset="images/boomboxSmall.jpg">
+						<img src="images/boombox.jpg" alt="boombox and a desktop" class="img-responsive " data-toggle="modal" data-target="#food3">
+					</picture>
+					<figcaption class="text-uppercase">Example 2</figcaption>
+				</figure>
+				<p><a href="#">http://ex3.com</a></p>
+			</article>
+
+			<div class="modal fade" id="food3" tabindex="-1" role="dialog" aria-labelledly="food3ModalLabel" style="display: none;">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+							<h4 class="modal-title" id="food3ModalLabel">Example 3</h4>
+						</div>
+
+						<div class="modal-body">
+Lorem ipsum dolor sit amet, eam et congue blandit persecuti, mei an omnis rationibus, ex mea vocent indoctum. Te dolore virtute mea. Omnium prompta constituam vim in. No mei nihil nominavi.
+
+Mei et errem bonorum. Qui no mundi forensibus, officiis delicatissimi usu id, posse interpretaris id eam. Cu saepe ubique duo, ne sea graeco assueverit. An admodum urbanitas duo, quo ea vidit errem sententiae. Nulla graecis ancillae vix an.
+
+Elit labitur senserit at eos, ad pro habemus cotidieque voluptatibus, ei saepe imperdiet mnesarchum sed. Vis id omnes urbanitas. Lorem malorum feugiat eos et. Tation vocibus te pri. 
+		              	</div>
+		              	<div class="modal-footer">
+		              		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		              	</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		</div>
+	</div>
+</body>
+</html>
